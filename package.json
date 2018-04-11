@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "node-microservice",
+  "version": "0.0.1",
+  "apidoc": {
+    "title": "NodeJS MicroServices API doc",
+    "url": "http://localhost:3000"
+  },
+  "description": "A microservice with Node.js",
+  "author": {
+    "email": "michelle.chsy@gmail.com",
+    "name": "Michelle Zhang"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "yn": "^2.0.0"
+  }
+}
