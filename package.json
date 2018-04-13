@@ -14,7 +14,8 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect src/index.js"
+    "start": "nodemon --inspect src/index.js",
+    "release": "node src/index.js"
   },
   "dependencies": {
     "express": "^4.16.3",
