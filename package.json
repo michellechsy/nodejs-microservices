@@ -2,10 +2,6 @@
   "private": true,
   "name": "node-microservice",
   "version": "0.0.1",
-  "apidoc": {
-    "title": "NodeJS MicroServices API doc",
-    "url": "http://localhost:3000"
-  },
   "description": "A microservice with Node.js",
   "author": {
     "email": "michelle.chsy@gmail.com",
